@@ -7,5 +7,4 @@ public class SerOficinas extends EdificioDeOficinas {
         super(cantidadOficinas, cantPersonasOficina, numerosPisos, ancho, alto, largo);
     }
 
-    // Implementa cualquier método adicional o funcionalidad específica aquí
 }

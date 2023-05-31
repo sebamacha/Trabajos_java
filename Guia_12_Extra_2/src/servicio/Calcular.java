@@ -23,12 +23,16 @@ public class Calcular {
                 System.out.println("en edificio " + contador + "  un total de  " + calpisos);
                 System.out.println("la Superficie es " + aux.calcularSuperficie());
                 System.out.println("el volumen es " + aux.calcularVolumen());
+                System.out.println("-----------------------------------------------");
 
             } else {
+                System.out.println("-----------------------------------------------");
+                //sino entra en el if imprime polideportivo
                 System.out.println("polideportivo ");
                 Polideportivo aux = (Polideportivo) edificio1;
                 System.out.println("la Superficie es " + aux.calcularSuperficie());
                 System.out.println("el volumen es " + aux.calcularVolumen());
+                System.out.println("techado o abierto: " + aux.getTipoTechado());
 
             }
 
@@ -38,4 +42,4 @@ public class Calcular {
 
 }
 
-}
+
